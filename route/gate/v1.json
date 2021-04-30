@@ -1,0 +1,34 @@
+[
+  {
+    "path": "/api/v1/teams",
+    "method": "POST",
+    "endpoint_filter": "create_team",
+    "middleware": [
+      "api_key"
+    ]
+  },
+  {
+    "path": "/api/v1/teams/:id",
+    "method": "GET",
+    "endpoint_filter": "get_team",
+    "middleware": [
+      "api_key"
+    ]
+  },
+  {
+    "path": "/api/v1/players",
+    "method": "POST",
+    "endpoint_filter": "create_player",
+    "middleware": [
+      "api_key"
+    ]
+  },
+  {
+    "path": "/api/v1/players/:id",
+    "method": "GET",
+    "endpoint_filter": "get_player",
+    "middleware": [
+      "api_key"
+    ]
+  }
+]
